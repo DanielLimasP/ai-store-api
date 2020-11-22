@@ -12,7 +12,7 @@ git clone REPO_URL
 ### cd to it in console
 
 ```bash
-cd cppl
+cd ai-store-api
 ```
 
 ### Install the dependencies of the api
