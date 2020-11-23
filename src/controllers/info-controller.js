@@ -38,17 +38,17 @@ async function addInfo(req, res){
 async function getInfo(req, res){
     console.log("Query params of the getInfo request")
     console.log(req.query)
-    let token = req.headers['x-access-token']
-    let valid = await verifyToken(token)
+    //let token = req.headers['x-access-token']
+    //let valid = await verifyToken(token)
     let { pin } = req.query
     let store = await Auth.findOne({pin})
     
-    if(valid && store){
+    if(store){
         const storeInfo = await Info.find({storePin: pin}).sort('timestamp')
         console.log({msg: "Info", info: storeInfo})
         return res.status(200).send({msg: "Info", info: storeInfo})
     }else{
-        return res.status(403).send({msg: "Unauthorized"})
+        return res.status(403).send({msg: "No info"})
     }
 }
 

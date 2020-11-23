@@ -67,14 +67,15 @@ async function newPin(req, res){
 }
 
 async function getStore(req, res){
-    let token = req.headers['x-access-token']
-    let valid = await verifyToken(token)
+    // Commenting this out
+    //let token = req.headers['x-access-token']
+    //let valid = await verifyToken(token)
     let { pin } = req.query
     let store = await Auth.findOne({pin})
-    if (valid && store){
+    if (store){
         return res.status(200).send({msg: "Store", store: store})
     }else{
-        return res.status(403).send({msg: "Unauthorized"})
+        return res.status(403).send({msg: "No store found"})
     }
 }
 
