@@ -34,7 +34,7 @@ Consume the API using Postman or Arc
 
 ### Auth routes
 <pre>
-/auth/?pin=""          [GET]                      Gets the info of a store  
+/auth/?pin=""               [GET]                       Gets the info of a store  
 </pre>
 ```json
 {
@@ -42,7 +42,7 @@ Consume the API using Postman or Arc
 }
 ```
 <pre>
-/auth/signup           [POST]                     Creates a new store in db  
+/auth/signup                [POST]                      Creates a new store in db. 
 </pre>
 ```json
 {
@@ -54,15 +54,16 @@ Consume the API using Postman or Arc
 }
 ```
 <pre>
-/auth/signin           [POST]                     Returns a JWT if valid pin is sent 
+/auth/signin                [POST]                      Returns a JWT if valid pin is sent 
 </pre>
 ```json
 {
     "pin": "5431"
 }
 ```
+
 <pre>
-/auth/new-pin          [POST]                     Changes the pin of a store 
+/auth/new-pin               [POST]                      Changes the pin of a store. It needs the x-access-token header. 
 </pre>
 ```json
 {
@@ -70,18 +71,15 @@ Consume the API using Postman or Arc
     "newPin": "5556"
 }
 ```
-```json
-{
-    "x-access-token": "Token generated in signin"
-}
-```
+
 <pre>
-/auth/logout           [POST]                     Logs us off 
+/auth/logout                [POST]                      Logs us off 
 </pre>
 
 ### Info routes
+
 <pre>
-/info/                 [POST]                     Creates a new info log in the server
+/info/                      [POST]                      Creates a new info log in the server. It needs the x-access-token header.
 </pre>
 ```json
 {
@@ -89,13 +87,17 @@ Consume the API using Postman or Arc
     "storePin": "5431"
 }
 ```
+
 <pre>
-/info/?pin=""          [GET]                      Returns all the logs of a store 
+/info/?pin=""               [GET]                       Returns all the logs of a store 
 </pre>
-```json
-{
-    "x-access-token": "Token generated in signin"
-}
-```
+
+<pre>
+/info/7days-logs/?pin=""    [GET]                       Returns all the logs of a store in a week
+</pre>
+
+<pre>
+/info/7days-maxes/?pin=""   [GET]                       Returns all the maxes of a store in a week
+</pre>
 ## Contributing
 Just ask for permission.
