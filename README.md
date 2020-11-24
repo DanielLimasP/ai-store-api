@@ -36,11 +36,7 @@ Consume the API using Postman or Arc
 <pre>
 /auth/?pin=""               [GET]                       Gets the info of a store  
 </pre>
-```json
-{
-    "x-access-token": "Token generated in signin"
-}
-```
+
 <pre>
 /auth/signup                [POST]                      Creates a new store in db. 
 </pre>
