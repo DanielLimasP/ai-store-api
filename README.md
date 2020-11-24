@@ -95,5 +95,15 @@ Consume the API using Postman or Arc
 <pre>
 /info/7days-maxes/?pin=""   [GET]                       Returns all the maxes of a store in a week
 </pre>
+
+<pre>
+/info/interval/?pin=""      [POST]                       Returns all the logs of a store in a period of time
+</pre>
+```json
+{
+    "startingDate": "2020-11-19",
+    "endingDate": "2020-11-20"
+}
+```
 ## Contributing
 Just ask for permission.

@@ -5,6 +5,7 @@ let infoController = require('../controllers/info-controller')
 router.post('/', infoController.addInfo)
 router.get('/', infoController.getInfo)
 router.get('/7days-logs', infoController.getLast7DaysLogs)
-router.get('/7days-maxes', infoController.getLast7DaysMaxes)
+router.get('/7days-maxes', infoController.getLast7DaysMaxesData)
+router.post('/interval', infoController.getLogsInDatesIntervals)
 
 module.exports = router

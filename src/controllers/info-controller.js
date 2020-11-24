@@ -79,15 +79,15 @@ async function getLast7DaysLogs(req, res){
     console.log(lastWeek)
 
     if (store){
-        let last7DaysInfo = await Info.find({ storePin: pin, currentDay: { $gte: lastWeek, $lte: currentDay }}).sort({currentDay: 'desc'})
-        console.log(last7DaysInfo)
-        return res.status(200).send({msg: "Last 7 days info", info: last7DaysInfo})
+        let last7DaysLogs = await Info.find({ storePin: pin, currentDay: { $gte: lastWeek, $lte: currentDay }}).sort({currentDay: 'desc'})
+        console.log(last7DaysLogs)
+        return res.status(200).send({msg: "Last 7 days info", info: last7DaysLogs})
     }else{
         return res.status(403).send({msg: "No info"})
     }
 }
 
-async function getLast7DaysMaxes(req, res){
+async function getLast7DaysMaxesData(req, res){
     let { pin } = req.query
     let date = new Date()
     let store = Auth.findOne({pin})
@@ -110,7 +110,7 @@ async function getLast7DaysMaxes(req, res){
         const day_6_info = await Info.findOne({ storePin: pin, currentDay: day_6}).sort({maxPeople: 'desc'})
         const day_7_info = await Info.findOne({ storePin: pin, currentDay: day_7}).sort({maxPeople: 'desc'})
 
-        last7DaysMaxes = {
+        last7DaysMaxesData = {
             day_1: day_1_info,
             day_2: day_2_info,
             day_3: day_3_info,
@@ -120,11 +120,26 @@ async function getLast7DaysMaxes(req, res){
             day_7: day_7_info
         }
 
-        return res.status(200).send({msg: "Last 7 days maxes", info: last7DaysMaxes})
-
+        return res.status(200).send({msg: "Last 7 days maxes", info: last7DaysMaxesData})
     }else{
-        return res.status(403).send({msg: "No info"})
+        return res.status(403).send({msg: "No info available"})
     }
+}
+
+async function getLogsInDatesIntervals(req, res){
+    let { pin } = req.query
+    let { startingDate, endingDate } = req.body
+    console.log(req.body)
+
+    let store = await Auth.findOne({pin})
+
+    if (store){
+        let data = await Info.find({storePin: pin, currentDay: {$gte: new Date(startingDate), $lte: new Date(endingDate)}}).sort({currentDay: 'desc'})
+        return res.status(200).send({msg: "Data found!", data: data})
+    }else{
+        return res.status(403).send({msg: "No info available"}) 
+    }
+
 }
 
 async function verifyToken(token){
@@ -152,5 +167,6 @@ module.exports = {
     addInfo,
     getInfo,
     getLast7DaysLogs,
-    getLast7DaysMaxes
+    getLast7DaysMaxesData,
+    getLogsInDatesIntervals,
 }
