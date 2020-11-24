@@ -6,6 +6,7 @@ const InfoSchema = new Schema({
     peopleInside: {type: Number, isRequired: true},
     storePin: {type: String, isRequired: true},
     timestamp: {type: Date, isRequired: true},
+    currentDay: {type: Date, required: true}
 })
 
 module.exports = mongoose.model("Info", InfoSchema)

@@ -20,22 +20,9 @@ async function addInfo(req, res){
 
     let store = await Auth.findOne({pin: storePin})
 
-    let d = new Date()
-    let date = d.getFullYear()+'-'+(d.getMonth()+1)+'-'+d.getDate();
-    let seconds = d.getSeconds()
-    
-    if(seconds < 10){
-        seconds = "0" + seconds
-    }
-    
-    let time = d.getHours() + ":" + d.getMinutes() + ":" + seconds;
-
-    console.log(date)
-    console.log(time)
-
-    timestamp = date + "T" + time
-
-    console.log(timestamp)
+    const timestamp = Date.now()
+    const d = new Date()
+    const currentDay = d.getFullYear()+'-'+(d.getMonth()+1)+'-'+d.getDate();
 
     if(valid && store){
         const oldPeopleInside = store.peopleInside
@@ -43,7 +30,7 @@ async function addInfo(req, res){
         const query = {pin: storePin}
 
         await Auth.findOneAndUpdate(query, {peopleInside, timestamp})
-        const newInfo = new Info({peopleEntering, peopleInside, storePin, timestamp})
+        const newInfo = new Info({peopleEntering, peopleInside, storePin, timestamp, currentDay})
         await newInfo.save()
         return res.status(201).send({msg: "Info added", info: newInfo})
     }else{
@@ -70,14 +57,16 @@ async function getInfo(req, res){
 
 async function getLast7DaysInfo(req, res){
     let { pin } = req.query
+    let date = new Date()
+    let store = Auth.findOne({pin})
 
-    let d = new Date()
-    let currentDay = d.getFullYear()+'-'+(d.getMonth()+1)+'-'+d.getDate();
-    console.log(currentDay)
-
-    let last7DaysInfo = await Info.find({ pin: pin, timestamp: currentDay }).sort({timestamp: "desc"})
-    console.log(last7DaysInfo)
-    return res.status(200).send({msg: "Last 7 days info", info: last7DaysInfo})
+    if (store){
+        let last7DaysInfo = await Info.find({ storePin: pin, currentDay: new Date(date.getFullYear()+'-'+(date.getMonth()+1)+'-'+date.getDate())})
+        console.log(last7DaysInfo)
+        return res.status(200).send({msg: "Last 7 days info", info: last7DaysInfo})
+    }else{
+        return res.status(403).send({msg: "No info"})
+    }
 }
 
 async function verifyToken(token){
