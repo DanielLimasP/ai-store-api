@@ -72,9 +72,11 @@ async function getLast7DaysInfo(req, res){
 
     currentDay = date.getFullYear()+'-'+(date.getMonth()+1)+'-'+date.getDate()
     //currentDay = new Date("2020-11-13")
+    lastWeek = date.getFullYear()+'-'+(date.getMonth()+1)+'-'+(date.getDate()-7)
+    console.log(lastWeek)
 
     if (store){
-        let last7DaysInfo = await Info.find({ storePin: pin, currentDay})
+        let last7DaysInfo = await Info.find({ storePin: pin, currentDay: { $gte: lastWeek, $lte: currentDay }}).sort({currentDay: 'desc'})
         console.log(last7DaysInfo)
         return res.status(200).send({msg: "Last 7 days info", info: last7DaysInfo})
     }else{
