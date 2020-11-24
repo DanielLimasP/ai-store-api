@@ -68,20 +68,60 @@ async function getInfo(req, res){
     }
 }
 
-async function getLast7DaysInfo(req, res){
+async function getLast7DaysLogs(req, res){
     let { pin } = req.query
     let date = new Date()
     let store = Auth.findOne({pin})
 
     currentDay = date.getFullYear()+'-'+(date.getMonth()+1)+'-'+date.getDate()
     //currentDay = new Date("2020-11-13")
-    lastWeek = date.getFullYear()+'-'+(date.getMonth()+1)+'-'+(date.getDate()-7)
+    lastWeek = date.getFullYear()+'-'+(date.getMonth()+1)+'-'+(date.getDate()-6)
     console.log(lastWeek)
 
     if (store){
         let last7DaysInfo = await Info.find({ storePin: pin, currentDay: { $gte: lastWeek, $lte: currentDay }}).sort({currentDay: 'desc'})
         console.log(last7DaysInfo)
         return res.status(200).send({msg: "Last 7 days info", info: last7DaysInfo})
+    }else{
+        return res.status(403).send({msg: "No info"})
+    }
+}
+
+async function getLast7DaysMaxes(req, res){
+    let { pin } = req.query
+    let date = new Date()
+    let store = Auth.findOne({pin})
+
+    day_1 = date.getFullYear()+'-'+(date.getMonth()+1)+'-'+date.getDate()
+    day_2 = date.getFullYear()+'-'+(date.getMonth()+1)+'-'+(date.getDate()-1)
+    day_3 = date.getFullYear()+'-'+(date.getMonth()+1)+'-'+(date.getDate()-2)
+    day_4 = date.getFullYear()+'-'+(date.getMonth()+1)+'-'+(date.getDate()-3)
+    day_5 = date.getFullYear()+'-'+(date.getMonth()+1)+'-'+(date.getDate()-4)
+    day_6 = date.getFullYear()+'-'+(date.getMonth()+1)+'-'+(date.getDate()-5)
+    day_7 = date.getFullYear()+'-'+(date.getMonth()+1)+'-'+(date.getDate()-6)
+
+    if (store){
+        
+        const day_1_info = await Info.findOne({ storePin: pin, currentDay: day_1}).sort({maxPeople: 'desc'})
+        const day_2_info = await Info.findOne({ storePin: pin, currentDay: day_2}).sort({maxPeople: 'desc'})
+        const day_3_info = await Info.findOne({ storePin: pin, currentDay: day_3}).sort({maxPeople: 'desc'})
+        const day_4_info = await Info.findOne({ storePin: pin, currentDay: day_4}).sort({maxPeople: 'desc'})
+        const day_5_info = await Info.findOne({ storePin: pin, currentDay: day_5}).sort({maxPeople: 'desc'})
+        const day_6_info = await Info.findOne({ storePin: pin, currentDay: day_6}).sort({maxPeople: 'desc'})
+        const day_7_info = await Info.findOne({ storePin: pin, currentDay: day_7}).sort({maxPeople: 'desc'})
+
+        last7DaysMaxes = {
+            day_1: day_1_info,
+            day_2: day_2_info,
+            day_3: day_3_info,
+            day_4: day_4_info,
+            day_5: day_5_info,
+            day_6: day_6_info,
+            day_7: day_7_info
+        }
+
+        return res.status(200).send({msg: "Last 7 days maxes", info: last7DaysMaxes})
+
     }else{
         return res.status(403).send({msg: "No info"})
     }
@@ -111,5 +151,6 @@ async function verifyToken(token){
 module.exports = {
     addInfo,
     getInfo,
-    getLast7DaysInfo
+    getLast7DaysLogs,
+    getLast7DaysMaxes
 }
