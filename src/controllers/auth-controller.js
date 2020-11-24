@@ -13,13 +13,15 @@ async function signup(req, res){
     const authPin = await Auth.findOne({pin})
     const authName = await Auth.findOne({storeName})
     const timestamp = Date.now()
+    const currentDay = Date.now()
+    const maxPeople = 0
     if(hash == "06d80eb0c50b49a509b49f2424e8c805"){
         if(authPin || authName){
             console.log(authPin)
             console.log({msg: "Name or pin already in use"})
             return res.status(403).send({msg: 'Name or pin already in use'})
         }else{
-            const newAuth = new Auth({storeName, pin, storeCapacity, peopleInside, timestamp})
+            const newAuth = new Auth({storeName, pin, storeCapacity, peopleInside, timestamp, currentDay, maxPeople})
             await newAuth.save()
             console.log({msg: `The store ${newAuth.storeName} has been created`})
             return res.status(201).send({msg: `The store ${newAuth.storeName} has been created`})

@@ -7,7 +7,8 @@ const AuthSchema = new Schema({
     storeCapacity: {type: Number, required: true},
     peopleInside: {type: Number, required: true},
     timestamp: {type: Date, required: true},
-    currentDay: {type: Date, required: true}
+    currentDay: {type: Date, required: true},
+    maxPeople: {type: Number, required: true}
 })
 
 module.exports = mongoose.model('Auth', AuthSchema)

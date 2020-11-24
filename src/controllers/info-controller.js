@@ -25,21 +25,24 @@ async function addInfo(req, res){
     // Current day
     const currentDay = d.getFullYear()+'-'+(d.getMonth()+1)+'-'+d.getDate();
     // Other day
-    //const currentDay = new Date("2020-11-13")
+    //const currentDay = new Date("2020-11-23")
 
     if(valid && store){
         if (peopleEntering == 0){
-            let peopleInside = peopleEntering
+            const peopleInside = peopleEntering
+            const maxPeople = 0
             const query = {pin: storePin}
-            await Auth.findOneAndUpdate(query, {peopleInside, timestamp, currentDay})
-            return res.status(201).send({msg: "Updated peopleInside to 0"})
+            await Auth.findOneAndUpdate(query, {peopleInside, timestamp, currentDay, maxPeople})
+            return res.status(201).send({msg: "Updated peopleInside and maxPeople to 0"})
         }else{
             const oldPeopleInside = store.peopleInside
             let peopleInside = oldPeopleInside + peopleEntering
+            const maxPeople = Math.max(store.maxPeople, peopleInside)
+            
             const query = {pin: storePin}
     
-            await Auth.findOneAndUpdate(query, {peopleInside, timestamp, currentDay})
-            const newInfo = new Info({peopleEntering, peopleInside, storePin, timestamp, currentDay})
+            await Auth.findOneAndUpdate(query, {peopleInside, timestamp, currentDay, maxPeople})
+            const newInfo = new Info({peopleEntering, peopleInside, storePin, timestamp, currentDay, maxPeople})
             await newInfo.save()
             return res.status(201).send({msg: "Info added", info: newInfo})
         }
