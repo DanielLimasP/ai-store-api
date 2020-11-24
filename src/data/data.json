@@ -1,0 +1,1501 @@
+[
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 1,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:34:42.029Z",
+        "currentDay" : "2020-11-13T00:00:00.000Z",
+        "maxPeople" : 1,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 2,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:34:42.918Z",
+        "currentDay" : "2020-11-13T00:00:00.000Z",
+        "maxPeople" : 2,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 3,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:34:46.504Z",
+        "currentDay" : "2020-11-13T00:00:00.000Z",
+        "maxPeople" : 3,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 4,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:34:47.127Z",
+        "currentDay" : "2020-11-13T00:00:00.000Z",
+        "maxPeople" : 4,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 5,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:34:47.715Z",
+        "currentDay" : "2020-11-13T00:00:00.000Z",
+        "maxPeople" : 5,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 6,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:34:48.219Z",
+        "currentDay" : "2020-11-13T00:00:00.000Z",
+        "maxPeople" : 6,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 7,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:34:48.686Z",
+        "currentDay" : "2020-11-13T00:00:00.000Z",
+        "maxPeople" : 7,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 8,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:34:49.118Z",
+        "currentDay" : "2020-11-13T00:00:00.000Z",
+        "maxPeople" : 8,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 9,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:34:49.568Z",
+        "currentDay" : "2020-11-13T00:00:00.000Z",
+        "maxPeople" : 9,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : -1,
+        "peopleInside" : 8,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:34:54.850Z",
+        "currentDay" : "2020-11-13T00:00:00.000Z",
+        "maxPeople" : 9,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : -1,
+        "peopleInside" : 7,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:34:55.335Z",
+        "currentDay" : "2020-11-13T00:00:00.000Z",
+        "maxPeople" : 9,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 1,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:35:42.339Z",
+        "currentDay" : "2020-11-14T00:00:00.000Z",
+        "maxPeople" : 1,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 2,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:35:42.803Z",
+        "currentDay" : "2020-11-14T00:00:00.000Z",
+        "maxPeople" : 2,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 3,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:35:43.361Z",
+        "currentDay" : "2020-11-14T00:00:00.000Z",
+        "maxPeople" : 3,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 4,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:35:43.909Z",
+        "currentDay" : "2020-11-14T00:00:00.000Z",
+        "maxPeople" : 4,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 5,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:35:45.655Z",
+        "currentDay" : "2020-11-14T00:00:00.000Z",
+        "maxPeople" : 5,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 6,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:35:46.282Z",
+        "currentDay" : "2020-11-14T00:00:00.000Z",
+        "maxPeople" : 6,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 7,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:35:46.909Z",
+        "currentDay" : "2020-11-14T00:00:00.000Z",
+        "maxPeople" : 7,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 8,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:35:47.461Z",
+        "currentDay" : "2020-11-14T00:00:00.000Z",
+        "maxPeople" : 8,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 9,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:35:47.994Z",
+        "currentDay" : "2020-11-14T00:00:00.000Z",
+        "maxPeople" : 9,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 10,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:35:48.499Z",
+        "currentDay" : "2020-11-14T00:00:00.000Z",
+        "maxPeople" : 10,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 11,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:35:48.982Z",
+        "currentDay" : "2020-11-14T00:00:00.000Z",
+        "maxPeople" : 11,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 12,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:35:49.448Z",
+        "currentDay" : "2020-11-14T00:00:00.000Z",
+        "maxPeople" : 12,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 13,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:35:49.946Z",
+        "currentDay" : "2020-11-14T00:00:00.000Z",
+        "maxPeople" : 13,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 14,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:35:50.395Z",
+        "currentDay" : "2020-11-14T00:00:00.000Z",
+        "maxPeople" : 14,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 15,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:35:52.308Z",
+        "currentDay" : "2020-11-14T00:00:00.000Z",
+        "maxPeople" : 15,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 16,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:35:52.782Z",
+        "currentDay" : "2020-11-14T00:00:00.000Z",
+        "maxPeople" : 16,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 17,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:35:53.202Z",
+        "currentDay" : "2020-11-14T00:00:00.000Z",
+        "maxPeople" : 17,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 18,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:35:54.754Z",
+        "currentDay" : "2020-11-14T00:00:00.000Z",
+        "maxPeople" : 18,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : -1,
+        "peopleInside" : 17,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:36:02.850Z",
+        "currentDay" : "2020-11-14T00:00:00.000Z",
+        "maxPeople" : 18,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : -1,
+        "peopleInside" : 16,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:36:03.265Z",
+        "currentDay" : "2020-11-14T00:00:00.000Z",
+        "maxPeople" : 18,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 17,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:37:19.158Z",
+        "currentDay" : "2020-11-15T00:00:00.000Z",
+        "maxPeople" : 18,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 1,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:38:18.232Z",
+        "currentDay" : "2020-11-15T00:00:00.000Z",
+        "maxPeople" : 1,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 2,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:38:19.434Z",
+        "currentDay" : "2020-11-15T00:00:00.000Z",
+        "maxPeople" : 2,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 3,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:38:20.138Z",
+        "currentDay" : "2020-11-15T00:00:00.000Z",
+        "maxPeople" : 3,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 4,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:38:20.867Z",
+        "currentDay" : "2020-11-15T00:00:00.000Z",
+        "maxPeople" : 4,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 5,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:38:21.390Z",
+        "currentDay" : "2020-11-15T00:00:00.000Z",
+        "maxPeople" : 5,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 6,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:38:21.827Z",
+        "currentDay" : "2020-11-15T00:00:00.000Z",
+        "maxPeople" : 6,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 7,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:38:22.293Z",
+        "currentDay" : "2020-11-15T00:00:00.000Z",
+        "maxPeople" : 7,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 8,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:38:22.671Z",
+        "currentDay" : "2020-11-15T00:00:00.000Z",
+        "maxPeople" : 8,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 9,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:38:23.282Z",
+        "currentDay" : "2020-11-15T00:00:00.000Z",
+        "maxPeople" : 9,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 10,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:38:23.671Z",
+        "currentDay" : "2020-11-15T00:00:00.000Z",
+        "maxPeople" : 10,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 11,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:38:24.107Z",
+        "currentDay" : "2020-11-15T00:00:00.000Z",
+        "maxPeople" : 11,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 12,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:38:24.540Z",
+        "currentDay" : "2020-11-15T00:00:00.000Z",
+        "maxPeople" : 12,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 13,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:38:24.907Z",
+        "currentDay" : "2020-11-15T00:00:00.000Z",
+        "maxPeople" : 13,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 14,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:38:25.352Z",
+        "currentDay" : "2020-11-15T00:00:00.000Z",
+        "maxPeople" : 14,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 15,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:38:25.770Z",
+        "currentDay" : "2020-11-15T00:00:00.000Z",
+        "maxPeople" : 15,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 16,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:38:26.201Z",
+        "currentDay" : "2020-11-15T00:00:00.000Z",
+        "maxPeople" : 16,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 17,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:38:26.579Z",
+        "currentDay" : "2020-11-15T00:00:00.000Z",
+        "maxPeople" : 17,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 18,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:38:26.901Z",
+        "currentDay" : "2020-11-15T00:00:00.000Z",
+        "maxPeople" : 18,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 19,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:38:27.271Z",
+        "currentDay" : "2020-11-15T00:00:00.000Z",
+        "maxPeople" : 19,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 1,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:38:39.923Z",
+        "currentDay" : "2020-11-16T00:00:00.000Z",
+        "maxPeople" : 1,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 2,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:38:40.548Z",
+        "currentDay" : "2020-11-16T00:00:00.000Z",
+        "maxPeople" : 2,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 3,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:38:41.187Z",
+        "currentDay" : "2020-11-16T00:00:00.000Z",
+        "maxPeople" : 3,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 4,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:38:41.728Z",
+        "currentDay" : "2020-11-16T00:00:00.000Z",
+        "maxPeople" : 4,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 5,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:38:42.210Z",
+        "currentDay" : "2020-11-16T00:00:00.000Z",
+        "maxPeople" : 5,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 6,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:38:42.818Z",
+        "currentDay" : "2020-11-16T00:00:00.000Z",
+        "maxPeople" : 6,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 7,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:38:43.260Z",
+        "currentDay" : "2020-11-16T00:00:00.000Z",
+        "maxPeople" : 7,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 8,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:38:43.774Z",
+        "currentDay" : "2020-11-16T00:00:00.000Z",
+        "maxPeople" : 8,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 9,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:38:44.293Z",
+        "currentDay" : "2020-11-16T00:00:00.000Z",
+        "maxPeople" : 9,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 10,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:38:44.675Z",
+        "currentDay" : "2020-11-16T00:00:00.000Z",
+        "maxPeople" : 10,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 11,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:38:45.065Z",
+        "currentDay" : "2020-11-16T00:00:00.000Z",
+        "maxPeople" : 11,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 12,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:38:45.390Z",
+        "currentDay" : "2020-11-16T00:00:00.000Z",
+        "maxPeople" : 12,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 13,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:38:45.757Z",
+        "currentDay" : "2020-11-16T00:00:00.000Z",
+        "maxPeople" : 13,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 1,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:38:58.295Z",
+        "currentDay" : "2020-11-17T00:00:00.000Z",
+        "maxPeople" : 1,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 2,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:38:58.899Z",
+        "currentDay" : "2020-11-17T00:00:00.000Z",
+        "maxPeople" : 2,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 3,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:38:59.406Z",
+        "currentDay" : "2020-11-17T00:00:00.000Z",
+        "maxPeople" : 3,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 4,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:38:59.934Z",
+        "currentDay" : "2020-11-17T00:00:00.000Z",
+        "maxPeople" : 4,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 5,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:39:00.412Z",
+        "currentDay" : "2020-11-17T00:00:00.000Z",
+        "maxPeople" : 5,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 6,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:39:00.927Z",
+        "currentDay" : "2020-11-17T00:00:00.000Z",
+        "maxPeople" : 6,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 7,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:39:01.407Z",
+        "currentDay" : "2020-11-17T00:00:00.000Z",
+        "maxPeople" : 7,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 8,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:39:01.889Z",
+        "currentDay" : "2020-11-17T00:00:00.000Z",
+        "maxPeople" : 8,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 9,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:39:02.390Z",
+        "currentDay" : "2020-11-17T00:00:00.000Z",
+        "maxPeople" : 9,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 10,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:39:02.771Z",
+        "currentDay" : "2020-11-17T00:00:00.000Z",
+        "maxPeople" : 10,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 11,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:39:03.193Z",
+        "currentDay" : "2020-11-17T00:00:00.000Z",
+        "maxPeople" : 11,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 12,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:39:03.596Z",
+        "currentDay" : "2020-11-17T00:00:00.000Z",
+        "maxPeople" : 12,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 13,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:39:04.054Z",
+        "currentDay" : "2020-11-17T00:00:00.000Z",
+        "maxPeople" : 13,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 14,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:39:04.468Z",
+        "currentDay" : "2020-11-17T00:00:00.000Z",
+        "maxPeople" : 14,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 15,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:39:04.888Z",
+        "currentDay" : "2020-11-17T00:00:00.000Z",
+        "maxPeople" : 15,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 1,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:39:16.986Z",
+        "currentDay" : "2020-11-18T00:00:00.000Z",
+        "maxPeople" : 1,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 2,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:39:17.409Z",
+        "currentDay" : "2020-11-18T00:00:00.000Z",
+        "maxPeople" : 2,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 3,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:39:18.121Z",
+        "currentDay" : "2020-11-18T00:00:00.000Z",
+        "maxPeople" : 3,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 4,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:39:18.501Z",
+        "currentDay" : "2020-11-18T00:00:00.000Z",
+        "maxPeople" : 4,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 5,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:39:18.954Z",
+        "currentDay" : "2020-11-18T00:00:00.000Z",
+        "maxPeople" : 5,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 6,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:39:19.504Z",
+        "currentDay" : "2020-11-18T00:00:00.000Z",
+        "maxPeople" : 6,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 7,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:39:19.804Z",
+        "currentDay" : "2020-11-18T00:00:00.000Z",
+        "maxPeople" : 7,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 8,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:39:20.424Z",
+        "currentDay" : "2020-11-18T00:00:00.000Z",
+        "maxPeople" : 8,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 9,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:39:20.744Z",
+        "currentDay" : "2020-11-18T00:00:00.000Z",
+        "maxPeople" : 9,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 10,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:39:21.106Z",
+        "currentDay" : "2020-11-18T00:00:00.000Z",
+        "maxPeople" : 10,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 11,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:39:21.446Z",
+        "currentDay" : "2020-11-18T00:00:00.000Z",
+        "maxPeople" : 11,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 12,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:39:21.793Z",
+        "currentDay" : "2020-11-18T00:00:00.000Z",
+        "maxPeople" : 12,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 13,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:39:22.119Z",
+        "currentDay" : "2020-11-18T00:00:00.000Z",
+        "maxPeople" : 13,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 14,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:39:22.445Z",
+        "currentDay" : "2020-11-18T00:00:00.000Z",
+        "maxPeople" : 14,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 15,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:39:22.815Z",
+        "currentDay" : "2020-11-18T00:00:00.000Z",
+        "maxPeople" : 15,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 16,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:39:23.169Z",
+        "currentDay" : "2020-11-18T00:00:00.000Z",
+        "maxPeople" : 16,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 17,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:39:23.511Z",
+        "currentDay" : "2020-11-18T00:00:00.000Z",
+        "maxPeople" : 17,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 1,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:39:36.558Z",
+        "currentDay" : "2020-11-19T00:00:00.000Z",
+        "maxPeople" : 1,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 2,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:39:37.208Z",
+        "currentDay" : "2020-11-19T00:00:00.000Z",
+        "maxPeople" : 2,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 3,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:39:37.696Z",
+        "currentDay" : "2020-11-19T00:00:00.000Z",
+        "maxPeople" : 3,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 4,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:39:38.154Z",
+        "currentDay" : "2020-11-19T00:00:00.000Z",
+        "maxPeople" : 4,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 5,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:39:38.634Z",
+        "currentDay" : "2020-11-19T00:00:00.000Z",
+        "maxPeople" : 5,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 6,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:39:39.584Z",
+        "currentDay" : "2020-11-19T00:00:00.000Z",
+        "maxPeople" : 6,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 7,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:39:39.999Z",
+        "currentDay" : "2020-11-19T00:00:00.000Z",
+        "maxPeople" : 7,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 8,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:39:40.494Z",
+        "currentDay" : "2020-11-19T00:00:00.000Z",
+        "maxPeople" : 8,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 9,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:39:40.875Z",
+        "currentDay" : "2020-11-19T00:00:00.000Z",
+        "maxPeople" : 9,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 10,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:39:41.233Z",
+        "currentDay" : "2020-11-19T00:00:00.000Z",
+        "maxPeople" : 10,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 11,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:39:41.564Z",
+        "currentDay" : "2020-11-19T00:00:00.000Z",
+        "maxPeople" : 11,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 12,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:39:42.012Z",
+        "currentDay" : "2020-11-19T00:00:00.000Z",
+        "maxPeople" : 12,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 1,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:39:56.898Z",
+        "currentDay" : "2020-11-20T00:00:00.000Z",
+        "maxPeople" : 1,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 2,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:39:57.390Z",
+        "currentDay" : "2020-11-20T00:00:00.000Z",
+        "maxPeople" : 2,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 3,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:39:57.975Z",
+        "currentDay" : "2020-11-20T00:00:00.000Z",
+        "maxPeople" : 3,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 4,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:39:58.272Z",
+        "currentDay" : "2020-11-20T00:00:00.000Z",
+        "maxPeople" : 4,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 5,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:39:58.657Z",
+        "currentDay" : "2020-11-20T00:00:00.000Z",
+        "maxPeople" : 5,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 6,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:39:59.031Z",
+        "currentDay" : "2020-11-20T00:00:00.000Z",
+        "maxPeople" : 6,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 7,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:39:59.615Z",
+        "currentDay" : "2020-11-20T00:00:00.000Z",
+        "maxPeople" : 7,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 8,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:39:59.954Z",
+        "currentDay" : "2020-11-20T00:00:00.000Z",
+        "maxPeople" : 8,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 1,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:40:09.363Z",
+        "currentDay" : "2020-11-21T00:00:00.000Z",
+        "maxPeople" : 1,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 2,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:40:10.235Z",
+        "currentDay" : "2020-11-21T00:00:00.000Z",
+        "maxPeople" : 2,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 3,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:40:10.718Z",
+        "currentDay" : "2020-11-21T00:00:00.000Z",
+        "maxPeople" : 3,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 4,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:40:11.229Z",
+        "currentDay" : "2020-11-21T00:00:00.000Z",
+        "maxPeople" : 4,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 5,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:40:11.749Z",
+        "currentDay" : "2020-11-21T00:00:00.000Z",
+        "maxPeople" : 5,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 6,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:40:12.325Z",
+        "currentDay" : "2020-11-21T00:00:00.000Z",
+        "maxPeople" : 6,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 7,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:40:12.971Z",
+        "currentDay" : "2020-11-21T00:00:00.000Z",
+        "maxPeople" : 7,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 8,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:40:13.353Z",
+        "currentDay" : "2020-11-21T00:00:00.000Z",
+        "maxPeople" : 8,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 9,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:40:13.788Z",
+        "currentDay" : "2020-11-21T00:00:00.000Z",
+        "maxPeople" : 9,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 10,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:40:14.456Z",
+        "currentDay" : "2020-11-21T00:00:00.000Z",
+        "maxPeople" : 10,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 11,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:40:15.076Z",
+        "currentDay" : "2020-11-21T00:00:00.000Z",
+        "maxPeople" : 11,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 12,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:40:15.802Z",
+        "currentDay" : "2020-11-21T00:00:00.000Z",
+        "maxPeople" : 12,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 13,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:40:16.445Z",
+        "currentDay" : "2020-11-21T00:00:00.000Z",
+        "maxPeople" : 13,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 14,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:40:16.826Z",
+        "currentDay" : "2020-11-21T00:00:00.000Z",
+        "maxPeople" : 14,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 15,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:40:17.293Z",
+        "currentDay" : "2020-11-21T00:00:00.000Z",
+        "maxPeople" : 15,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 16,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:40:17.629Z",
+        "currentDay" : "2020-11-21T00:00:00.000Z",
+        "maxPeople" : 16,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 17,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:40:18.031Z",
+        "currentDay" : "2020-11-21T00:00:00.000Z",
+        "maxPeople" : 17,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 18,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:40:18.371Z",
+        "currentDay" : "2020-11-21T00:00:00.000Z",
+        "maxPeople" : 18,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 19,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:40:18.953Z",
+        "currentDay" : "2020-11-21T00:00:00.000Z",
+        "maxPeople" : 19,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 20,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:40:19.359Z",
+        "currentDay" : "2020-11-21T00:00:00.000Z",
+        "maxPeople" : 20,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 21,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:40:19.742Z",
+        "currentDay" : "2020-11-21T00:00:00.000Z",
+        "maxPeople" : 21,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 22,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:40:20.051Z",
+        "currentDay" : "2020-11-21T00:00:00.000Z",
+        "maxPeople" : 22,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 1,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:40:36.919Z",
+        "currentDay" : "2020-11-22T00:00:00.000Z",
+        "maxPeople" : 1,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 2,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:40:37.684Z",
+        "currentDay" : "2020-11-22T00:00:00.000Z",
+        "maxPeople" : 2,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 3,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:40:38.273Z",
+        "currentDay" : "2020-11-22T00:00:00.000Z",
+        "maxPeople" : 3,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 4,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:40:38.616Z",
+        "currentDay" : "2020-11-22T00:00:00.000Z",
+        "maxPeople" : 4,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 5,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:40:39.008Z",
+        "currentDay" : "2020-11-22T00:00:00.000Z",
+        "maxPeople" : 5,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 6,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:40:39.438Z",
+        "currentDay" : "2020-11-22T00:00:00.000Z",
+        "maxPeople" : 6,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 7,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:40:39.950Z",
+        "currentDay" : "2020-11-22T00:00:00.000Z",
+        "maxPeople" : 7,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 8,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:40:40.274Z",
+        "currentDay" : "2020-11-22T00:00:00.000Z",
+        "maxPeople" : 8,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 9,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:40:40.951Z",
+        "currentDay" : "2020-11-22T00:00:00.000Z",
+        "maxPeople" : 9,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 10,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:40:41.400Z",
+        "currentDay" : "2020-11-22T00:00:00.000Z",
+        "maxPeople" : 10,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 11,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:40:42.055Z",
+        "currentDay" : "2020-11-22T00:00:00.000Z",
+        "maxPeople" : 11,
+        "__v" : 0
+    },
+
+    {
+        "peopleEntering" : 1,
+        "peopleInside" : 12,
+        "storePin" : "1325",
+        "timestamp" : "2020-11-24T04:40:42.476Z",
+        "currentDay" : "2020-11-22T00:00:00.000Z",
+        "maxPeople" : 12,
+        "__v" : 0
+    },
+]
