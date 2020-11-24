@@ -19,8 +19,24 @@ async function addInfo(req, res){
     } = req.body
 
     let store = await Auth.findOne({pin: storePin})
-    const timestamp = Date.now()
+
+    let d = new Date()
+    let date = d.getFullYear()+'-'+(d.getMonth()+1)+'-'+d.getDate();
+    let seconds = d.getSeconds()
     
+    if(seconds < 10){
+        seconds = "0" + seconds
+    }
+    
+    let time = d.getHours() + ":" + d.getMinutes() + ":" + seconds;
+
+    console.log(date)
+    console.log(time)
+
+    timestamp = date + "T" + time
+
+    console.log(timestamp)
+
     if(valid && store){
         const oldPeopleInside = store.peopleInside
         let peopleInside = oldPeopleInside + peopleEntering
@@ -44,7 +60,7 @@ async function getInfo(req, res){
     let store = await Auth.findOne({pin})
     
     if(store){
-        const storeInfo = await Info.find({storePin: pin}).sort('timestamp')
+        const storeInfo = await Info.find({storePin: pin}).sort({timestamp: "desc"})
         console.log({msg: "Info", info: storeInfo})
         return res.status(200).send({msg: "Info", info: storeInfo})
     }else{
@@ -52,6 +68,17 @@ async function getInfo(req, res){
     }
 }
 
+async function getLast7DaysInfo(req, res){
+    let { pin } = req.query
+
+    let d = new Date()
+    let currentDay = d.getFullYear()+'-'+(d.getMonth()+1)+'-'+d.getDate();
+    console.log(currentDay)
+
+    let last7DaysInfo = await Info.find({ pin: pin, timestamp: currentDay }).sort({timestamp: "desc"})
+    console.log(last7DaysInfo)
+    return res.status(200).send({msg: "Last 7 days info", info: last7DaysInfo})
+}
 
 async function verifyToken(token){
     //console.log(token)
@@ -76,5 +103,6 @@ async function verifyToken(token){
 
 module.exports = {
     addInfo,
-    getInfo
+    getInfo,
+    getLast7DaysInfo
 }
