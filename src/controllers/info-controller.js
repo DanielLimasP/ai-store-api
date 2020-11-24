@@ -22,17 +22,27 @@ async function addInfo(req, res){
 
     const timestamp = Date.now()
     const d = new Date()
+    // Current day
     const currentDay = d.getFullYear()+'-'+(d.getMonth()+1)+'-'+d.getDate();
+    // Other day
+    //const currentDay = new Date("2020-11-13")
 
     if(valid && store){
-        const oldPeopleInside = store.peopleInside
-        let peopleInside = oldPeopleInside + peopleEntering
-        const query = {pin: storePin}
-
-        await Auth.findOneAndUpdate(query, {peopleInside, timestamp})
-        const newInfo = new Info({peopleEntering, peopleInside, storePin, timestamp, currentDay})
-        await newInfo.save()
-        return res.status(201).send({msg: "Info added", info: newInfo})
+        if (peopleEntering == 0){
+            let peopleInside = peopleEntering
+            const query = {pin: storePin}
+            await Auth.findOneAndUpdate(query, {peopleInside, timestamp, currentDay})
+            return res.status(201).send({msg: "Updated peopleInside to 0"})
+        }else{
+            const oldPeopleInside = store.peopleInside
+            let peopleInside = oldPeopleInside + peopleEntering
+            const query = {pin: storePin}
+    
+            await Auth.findOneAndUpdate(query, {peopleInside, timestamp, currentDay})
+            const newInfo = new Info({peopleEntering, peopleInside, storePin, timestamp, currentDay})
+            await newInfo.save()
+            return res.status(201).send({msg: "Info added", info: newInfo})
+        }
     }else{
         return res.status(403).send({msg: "Unauthorized"})
     }
@@ -60,8 +70,11 @@ async function getLast7DaysInfo(req, res){
     let date = new Date()
     let store = Auth.findOne({pin})
 
+    currentDay = date.getFullYear()+'-'+(date.getMonth()+1)+'-'+date.getDate()
+    //currentDay = new Date("2020-11-13")
+
     if (store){
-        let last7DaysInfo = await Info.find({ storePin: pin, currentDay: new Date(date.getFullYear()+'-'+(date.getMonth()+1)+'-'+date.getDate())})
+        let last7DaysInfo = await Info.find({ storePin: pin, currentDay})
         console.log(last7DaysInfo)
         return res.status(200).send({msg: "Last 7 days info", info: last7DaysInfo})
     }else{
