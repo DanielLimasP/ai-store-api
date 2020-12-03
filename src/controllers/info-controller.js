@@ -23,9 +23,9 @@ async function addInfo(req, res){
     const timestamp = Date.now()
     const d = new Date()
     // Current day
-    const currentDay = d.getFullYear()+'-'+(d.getMonth()+1)+'-'+d.getDate();
+    //const currentDay = d.getFullYear()+'-'+(d.getMonth()+1)+'-'+d.getDate();
     // Other day
-    //const currentDay = new Date("2020-11-23")
+    const currentDay = new Date("2020-12-23")
 
     if(valid && store){
         if (peopleEntering == 0){
@@ -72,14 +72,29 @@ async function getLast7DaysLogs(req, res){
     let { pin } = req.query
     let date = new Date()
     let store = Auth.findOne({pin})
-
+    console.log('here')
     currentDay = date.getFullYear()+'-'+(date.getMonth()+1)+'-'+date.getDate()
-    //currentDay = new Date("2020-11-13")
-    lastWeek = date.getFullYear()+'-'+(date.getMonth()+1)+'-'+(date.getDate()-6)
+    console.log(date.getDate())
+    if(date.getDate() >= 7){
+        lastWeek = date.getFullYear()+'-'+(date.getMonth()+1)+'-'+(date.getDate()-6)
+    }else if(date.getDate() == 6){
+        lastWeek = date.getFullYear()+'-'+(date.getMonth()+1)+'-30'
+    }else if(date.getDate() == 5){
+        lastWeek = date.getFullYear()+'-'+(date.getMonth()+1)+'-29'
+    }else if(date.getDate() == 4){
+        lastWeek = date.getFullYear()+'-'+(date.getMonth()+1)+'-28'
+    }else if(date.getDate() == 3){
+        lastWeek = date.getFullYear()+'-'+(date.getMonth()+1)+'-27'
+    }else if(date.getDate() == 2){
+        lastWeek = date.getFullYear()+'-'+(date.getMonth()+1)+'-26'
+    }else if(date.getDate() == 1 ){
+        lastWeek = date.getFullYear()+'-'+(date.getMonth()+1)+'-25'
+    }
+
     console.log(lastWeek)
 
     if (store){
-        let last7DaysLogs = await Info.find({ storePin: pin, currentDay: { $gte: lastWeek, $lte: currentDay }}).sort({currentDay: 'desc'})
+        let last7DaysLogs = await Info.find({ storePin: pin, currentDay: { $gte: currentDay, $lte: lastWeek }}).sort({currentDay: 'desc'})
         console.log(last7DaysLogs)
         return res.status(200).send({msg: "Last 7 days info", info: last7DaysLogs})
     }else{
@@ -91,14 +106,64 @@ async function getLast7DaysMaxesData(req, res){
     let { pin } = req.query
     let date = new Date()
     let store = Auth.findOne({pin})
-
-    day_1 = date.getFullYear()+'-'+(date.getMonth()+1)+'-'+date.getDate()
-    day_2 = date.getFullYear()+'-'+(date.getMonth()+1)+'-'+(date.getDate()-1)
-    day_3 = date.getFullYear()+'-'+(date.getMonth()+1)+'-'+(date.getDate()-2)
-    day_4 = date.getFullYear()+'-'+(date.getMonth()+1)+'-'+(date.getDate()-3)
-    day_5 = date.getFullYear()+'-'+(date.getMonth()+1)+'-'+(date.getDate()-4)
-    day_6 = date.getFullYear()+'-'+(date.getMonth()+1)+'-'+(date.getDate()-5)
-    day_7 = date.getFullYear()+'-'+(date.getMonth()+1)+'-'+(date.getDate()-6)
+    console.log(date.getDate())
+    if(date.getDate() >= 7){
+        day_1 = date.getFullYear()+'-'+(date.getMonth()+1)+'-'+date.getDate()
+        day_2 = date.getFullYear()+'-'+(date.getMonth()+1)+'-'+(date.getDate()-1)
+        day_3 = date.getFullYear()+'-'+(date.getMonth()+1)+'-'+(date.getDate()-2)
+        day_4 = date.getFullYear()+'-'+(date.getMonth()+1)+'-'+(date.getDate()-3)
+        day_5 = date.getFullYear()+'-'+(date.getMonth()+1)+'-'+(date.getDate()-4)
+        day_6 = date.getFullYear()+'-'+(date.getMonth()+1)+'-'+(date.getDate()-5)
+        day_7 = date.getFullYear()+'-'+(date.getMonth()+1)+'-'+(date.getDate()-6)
+    }else if(date.getDate() == 6){
+        day_1 = date.getFullYear()+'-'+(date.getMonth()+1)+'-06'
+        day_2 = date.getFullYear()+'-'+(date.getMonth()+1)+'-05'
+        day_3 = date.getFullYear()+'-'+(date.getMonth()+1)+'-04'
+        day_4 = date.getFullYear()+'-'+(date.getMonth()+1)+'-03'
+        day_5 = date.getFullYear()+'-'+(date.getMonth()+1)+'-02'
+        day_6 = date.getFullYear()+'-'+(date.getMonth()+1)+'-01'
+        day_7 = date.getFullYear()+'-'+(date.getMonth()+1)+'-30'
+    }else if(date.getDate() == 5){
+        day_1 = date.getFullYear()+'-'+(date.getMonth()+1)+'-05'
+        day_2 = date.getFullYear()+'-'+(date.getMonth()+1)+'-04'
+        day_3 = date.getFullYear()+'-'+(date.getMonth()+1)+'-03'
+        day_4 = date.getFullYear()+'-'+(date.getMonth()+1)+'-02'
+        day_5 = date.getFullYear()+'-'+(date.getMonth()+1)+'-01'
+        day_6 = date.getFullYear()+'-'+(date.getMonth()+1)+'-30'
+        day_7 = date.getFullYear()+'-'+(date.getMonth()+1)+'-29'
+    }else if(date.getDate() == 4){
+        day_1 = date.getFullYear()+'-'+(date.getMonth()+1)+'-04'
+        day_2 = date.getFullYear()+'-'+(date.getMonth()+1)+'-03'
+        day_3 = date.getFullYear()+'-'+(date.getMonth()+1)+'-02'
+        day_4 = date.getFullYear()+'-'+(date.getMonth()+1)+'-01'
+        day_5 = date.getFullYear()+'-'+(date.getMonth()+1)+'-30'
+        day_6 = date.getFullYear()+'-'+(date.getMonth()+1)+'-29'
+        day_7 = date.getFullYear()+'-'+(date.getMonth()+1)+'-28'
+    }else if(date.getDate() == 3){
+        day_1 = date.getFullYear()+'-'+(date.getMonth()+1)+'-03'
+        day_2 = date.getFullYear()+'-'+(date.getMonth()+1)+'-02'
+        day_3 = date.getFullYear()+'-'+(date.getMonth()+1)+'-01'
+        day_4 = date.getFullYear()+'-'+(date.getMonth()+1)+'-30'
+        day_5 = date.getFullYear()+'-'+(date.getMonth()+1)+'-29'
+        day_6 = date.getFullYear()+'-'+(date.getMonth()+1)+'-28'
+        day_7 = date.getFullYear()+'-'+(date.getMonth()+1)+'-27'
+    }else if(date.getDate() == 2){
+        day_1 = date.getFullYear()+'-'+(date.getMonth()+1)+'-02'
+        day_2 = date.getFullYear()+'-'+(date.getMonth()+1)+'-01'
+        day_3 = date.getFullYear()+'-'+(date.getMonth()+1)+'-30'
+        day_4 = date.getFullYear()+'-'+(date.getMonth()+1)+'-29'
+        day_5 = date.getFullYear()+'-'+(date.getMonth()+1)+'-28'
+        day_6 = date.getFullYear()+'-'+(date.getMonth()+1)+'-27'
+        day_7 = date.getFullYear()+'-'+(date.getMonth()+1)+'-26'
+    }else if(date.getDate() == 1 ){
+        day_1 = date.getFullYear()+'-'+(date.getMonth()+1)+'-01'
+        day_2 = date.getFullYear()+'-'+(date.getMonth()+1)+'-30'
+        day_3 = date.getFullYear()+'-'+(date.getMonth()+1)+'-29'
+        day_4 = date.getFullYear()+'-'+(date.getMonth()+1)+'-28'
+        day_5 = date.getFullYear()+'-'+(date.getMonth()+1)+'-27'
+        day_6 = date.getFullYear()+'-'+(date.getMonth()+1)+'-26'
+        day_7 = date.getFullYear()+'-'+(date.getMonth()+1)+'-25'
+    }
 
     if (store){
         
