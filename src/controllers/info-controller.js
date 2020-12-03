@@ -23,9 +23,9 @@ async function addInfo(req, res){
     const timestamp = Date.now()
     const d = new Date()
     // Current day
-    //const currentDay = d.getFullYear()+'-'+(d.getMonth()+1)+'-'+d.getDate();
+    const currentDay = d.getFullYear()+'-'+(d.getMonth()+1)+'-'+d.getDate();
     // Other day
-    const currentDay = new Date("2020-12-23")
+    //const currentDay = new Date("2020-12-23")
 
     if(valid && store){
         if (peopleEntering == 0){
